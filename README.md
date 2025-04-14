@@ -78,5 +78,39 @@ pip install matplotlib
 - CSV files with the best-evolved test cases (ga_test_cases.csv and refined_test_cases.csv).
 - A coverage history graph saved as coverage_history.png.
 
+## Output & Deliverables
+
+- **Test Case Files:** CSV files containing the generated test cases along with their category labels (Valid, Invalid, Boundary).
+
+- **Coverage Graph:** A PNG file (`coverage_history.png`) displaying the GA’s progress in test coverage over generations.
+
+- **Terminal Output:** Summaries of:
+  - Generation count and achieved coverage percentage.
+  - Counts of test cases in each category.
+  - Comparison of GA performance vs. combined GA + local search.
+ 
+## Report & Analysis
+
+In the accompanying report, you will find:
+- An explanation of the fitness function and chromosome representation choices.
+- An analysis of parameter tuning (e.g., the impact of the 15% mutation rate).
+- Detailed results including coverage metrics for valid, invalid, and boundary test cases.
+- A comparison between the GA’s efficiency and baseline random testing.
+- Visualizations (line graphs) of how the GA’s coverage improved over generations.
+
+
+## Contributing
+
+Contributions and improvements are welcome! To contribute:
+1. Fork the repository and create a feature branch.
+2. Follow the established coding style and file structure.
+3. Ensure your changes are well tested.
+4. Submit a pull request with a description of your modifications.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
+
+
 
 
