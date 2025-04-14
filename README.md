@@ -63,20 +63,20 @@ Design and implement a GA that generates input test cases for a date validation 
    cd <repository-directory>
    ```
 
-   2. **Install Dependencies**:
-      Ensure that Python 3 is installed and that matplotlib is available:
-  ```bash
-  pip install matplotlib
-  ```
+ 2. **Install Dependencies**:
+    Ensure that Python 3 is installed and that matplotlib is available:
+```bash
+pip install matplotlib
+```
 
-  3. **Run the Application:**
-     ```bash
-     python main.py
-     ```
+3. **Run the Application:**
+   ```bash
+   python main.py
+   ```
 
 - This will start the genetic algorithm, display generation progress in the terminal, and generate:
--CSV files with the best-evolved test cases (ga_test_cases.csv and refined_test_cases.csv).
--A coverage history graph saved as coverage_history.png.
+- CSV files with the best-evolved test cases (ga_test_cases.csv and refined_test_cases.csv).
+- A coverage history graph saved as coverage_history.png.
 
 
 
