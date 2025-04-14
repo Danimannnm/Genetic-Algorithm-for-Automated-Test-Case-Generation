@@ -1,0 +1,30 @@
+Date,Category,Validity
+22/07/9190,Valid (General Date),Valid
+29/02/2020,Valid (Leap Year),Valid
+31/03/5992,Valid (31-Day Month),Valid
+28/02/0718,Valid (Feb 28),Valid
+30/04/2023,Valid (30-Day Month),Valid
+29/02/0000,Valid (Leap Year - Divisible by 400),Valid
+01/11/3518,Valid (General Date),Valid
+24/03/9878,Valid (General Date),Valid
+23/11/8121,Valid (General Date),Valid
+26/05/0724,Valid (General Date),Valid
+31/04/2023,Invalid (Day > 30 in 4),Invalid
+26/13/7792,Invalid (Month > 12),Invalid
+33/05/4281,Invalid (Day > 31 in 5),Invalid
+33/11/6142,Invalid (Day > 30 in 11),Invalid
+29/02/2021,Invalid (Feb 29 in Non-Leap),Invalid
+32/02/0900,Invalid (Day > 29 in Feb),Invalid
+32/12/5461,Invalid (Day > 31 in 12),Invalid
+35/10/4184,Invalid (Day > 31 in 10),Invalid
+31/09/5579,Invalid (Day > 30 in 9),Invalid
+32/07/3006,Invalid (Day > 31 in 7),Invalid
+33/08/4281,Invalid (Day > 31 in 8),Invalid
+33/01/9190,Invalid (Day > 31 in 1),Invalid
+33/06/4281,Invalid (Day > 30 in 6),Invalid
+33/03/0445,Invalid (Day > 31 in 3),Invalid
+31/12/9999,Boundary (Max Date),Valid
+01/01/0000,Boundary (Min Date),Valid
+31/12/5992,Boundary (Last Day of Year),Valid
+01/01/9190,Boundary (First Day of Year),Valid
+01/01/0000,Boundary (Min Date),Valid
